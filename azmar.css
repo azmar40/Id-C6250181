@@ -1,0 +1,73 @@
+body{
+    background:#a9c3dc;
+    font-family:"Times New Roman", serif;
+}
+
+#wrapper{
+    width:965px;
+    margin:55px auto;
+    background:#53abc6;
+}
+
+header{
+    background:#6ed0e1;
+    height:95px;
+    text-align:center;
+    text-shadow: 2px 2px 4PX gray;
+
+}
+
+#content{
+    display:flex;
+}
+.box{clear: both; color: rgb(200, 214, 214);border-bottom: 2px solid rgb(51, 134, 143); font-size: 24px;  box-shadow: 5px 5px 5px rgb(181, 181, 101);}
+#nav{
+    width:150px;
+    background-color:rgb(153, 222, 252);
+    padding:35px 25px;
+
+}
+.h1{border: 5px dashed rgb(42, 91, 96); background-color: #a9c3dc; margin-bottom: 20px;text-shadow: 2px 2px 4px gray;
+display: flex;align-items: center;padding: 10px;background-image: url("ss.jpg");
+background-size:cover ; background-position: center;align-items: center;}
+
+.title-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    margin-bottom:8px;
+}
+nav a:hover{
+    color: rgb(243, 243, 156);
+    background-color: rgb(22, 22, 66);}
+nav ul li a{
+    text-decoration:none;
+    color:rgb(192, 75, 112);
+    font-size:18px;
+}
+
+.sawir img{width: 100px; height: 120px; float: left; margin-right: 3px;}
+main{
+    flex:1;
+    padding:35px 15px;
+}
+
+
+footer{
+    background:#aec6e7;
+    color:black;
+    text-align:center;
+    padding:8px;
+    border-top:3px solid #8c6f40;
+    border-bottom:3px solid #8c6f40;
+    font-style:italic;
+} 
